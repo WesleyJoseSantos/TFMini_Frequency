@@ -38,4 +38,5 @@ void loop()
   tfmini.getData(tfDist, tfLux, tfTemp);
   freq_out(tfDist, DIST_MAX, DIST_MAX, FREQ_MIN, FREQ_MAX, PIN_FREQ_TEMP);
   Serial.println(tfDist);
+  delay(10);
 }
